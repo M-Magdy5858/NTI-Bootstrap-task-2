@@ -1,0 +1,677 @@
+section .row a.btn {
+  width: fit-content;
+  padding: 10px 30px;
+  color: white;
+
+  box-shadow: 0px 0px 10px 5px rgba(0, 67, 121, 0.162);
+}
+
+h6 {
+  color: royalblue;
+}
+
+h2,
+h1,
+h4,
+h5 {
+  color: #012970;
+}
+
+* {
+  transition: 0.5s all;
+}
+
+/*  */
+/*  */
+/*  */
+/* ========= nav bar ======= */
+
+header {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+
+  box-shadow: 0px 0px 10px rgba(211, 211, 211, 0.395);
+}
+
+header h2 {
+  margin-left: 5px;
+}
+
+header a {
+  color: #013289;
+  font-weight: bold;
+}
+
+header a:hover,
+header li.active a {
+  color: royalblue;
+}
+
+.nav-item {
+  margin: 5px 5px;
+}
+
+/* =========End of nav bar ======= */
+
+
+
+/* ======== Hero Section ========== */
+.hero {
+  /* margin-top: 75px; */
+  padding: 75px 0px;
+  background-image: url(../media/hero-bg.png);
+  background-attachment: fixed;
+}
+
+.hero-text {
+  padding: 20px;
+
+}
+
+.hero-text p {
+  font-size: larger;
+  margin: 20px 0px;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.btn i {
+  position: relative;
+  left: 0;
+  top: 1px;
+}
+
+
+
+a.btn:hover i {
+  left: 10px;
+}
+
+/* ====== End of Hero ======= */
+
+
+
+
+
+/* ========== About Section ========== */
+
+.about {
+  margin: 50px 0px;
+}
+
+.about-text {
+  background-color: #F6F9FF;
+  padding: 40px 35px;
+}
+
+.about p {
+  margin: 20px 0px;
+}
+
+.about h4 {
+  color: #012970;
+}
+
+.about-img {
+  padding: 0px;
+}
+
+.about img {
+  width: 100%;
+}
+
+/* ======End of about ====== */
+
+/* ======= Values Section ======= */
+.values {
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.values h1 {
+  margin-bottom: 30px;
+}
+
+.values .box {
+  padding: 30px;
+  height: 95%;
+  box-shadow: 0px 0px 15px 2px whitesmoke;
+
+  margin-bottom: 20px;
+}
+
+
+.values .image {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+
+}
+
+.values img {
+  /* width: 80%; */
+  height: 80%;
+}
+
+.values .box:hover {
+  box-shadow: 0px 0px 10px 10px whitesmoke;
+
+}
+
+.values .box:hover img {
+  transform: scale(0.8);
+}
+
+/* ======== End of Values ========== */
+
+
+/* ======== Icons ========== */
+
+.icons {
+  padding: 60px 0px;
+}
+
+
+.icons .box {
+  padding: 15px 30px;
+  box-shadow: 0px 0px 10px 5px whitesmoke;
+
+  margin-bottom: 30px;
+
+}
+
+.icons i {
+  font-size: 50px;
+  /* font-weight: 100; */
+}
+
+.icons .row div:nth-of-type(1) i {
+  color: royalblue;
+}
+
+.icons .row div:nth-of-type(2) i {
+  color: orange;
+}
+
+.icons .row div:nth-of-type(3) i {
+  color: lightgreen;
+}
+
+.icons .row div:nth-of-type(4) i {
+  color: crimson;
+}
+
+.icons p {
+  margin: 0px;
+  padding-left: 15px;
+}
+
+/* ======End of Icons======= */
+
+
+
+/* ======= features 1 ======= */
+
+
+.features {
+  padding: 50px 0px;
+}
+
+.features .header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.features h1 {
+  margin-bottom: 40px;
+}
+
+.features .img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.features img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.features .box {
+  padding: 20px;
+  margin-bottom: 30px;
+
+  box-shadow: 0px 0px 10px 5px whitesmoke;
+
+}
+
+.features .box p {
+  font-size: large;
+  font-weight: 500;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  color: #012970;
+}
+
+
+.features .box i {
+  background-color: #eaf1ff;
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.features .box:hover i {
+  color: white;
+  background-color: royalblue;
+}
+
+/* ======= End of features 1 ======= */
+
+
+/* ======= features 2 ======= */
+
+.features .nav {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 15px;
+}
+
+.features .nav-item {
+  margin-bottom: 0px;
+}
+
+.features a.nav-link {
+  padding: 15px 0px;
+  margin-right: 15px;
+  color: #012970;
+  font-size: medium;
+  font-weight: 600;
+
+  position: relative;
+  top: 1px;
+}
+
+
+
+.features a.nav-link.active {
+  color: royalblue;
+  background-color: transparent;
+  border-radius: 0px;
+  border-bottom: 3px solid;
+}
+
+.features p {
+  margin-bottom: 10px;
+}
+
+.features strong {
+  color: #012970;
+}
+
+.features strong i {
+  color: royalblue;
+  position: relative;
+  top: 3px;
+
+  margin-right: 10px;
+}
+
+/* ======= End of features 2 ======= */
+
+
+
+/* ======= features 3 ======= */
+.features .item {
+  margin-bottom: 20px;
+}
+
+.features .item p {
+  color: gray;
+
+}
+
+.features .item i {
+  padding-right: 10px;
+  font-size: 50px;
+  line-height: 50px;
+  color: royalblue;
+}
+
+/* ======= End of featues 3 ======= */
+
+
+/* ========= Services ========= */
+
+
+.services {
+  padding: 50px 0px;
+}
+
+.services .box {
+  margin: 30px 0px;
+  padding: 60px 30px;
+
+  border-radius: 5px;
+  border-bottom: 3px solid #2db6fa;
+
+  transition: 200ms all;
+
+  box-shadow: 0px 0px 20px rgba(211, 211, 211, 0.507);
+}
+
+.services p {
+  transition: none;
+
+}
+
+
+
+
+.services .box .icon {
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 40px;
+  color: rgb(86, 179, 255);
+  background-color: rgb(203, 242, 255);
+
+  transition: 200ms all;
+
+}
+
+.services .box h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  color: #000000a4;
+  transition: 200ms all;
+
+}
+
+
+.services .box a i {
+  line-height: 16px;
+  position: relative;
+  top: 3px;
+
+  transition: none;
+}
+
+.services .box a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.services .box:hover {
+  background-color: #2db6fa;
+  color: white;
+}
+
+.services .box:hover .icon {
+  background-color: white;
+}
+
+.services .box:hover h3 {
+  color: white;
+}
+
+
+.services .box:hover a {
+  color: white;
+}
+
+/* 2 orange */
+.services .row div:nth-of-type(2) .box {
+  border-color: orange;
+}
+
+.services .row div:nth-of-type(2) .box:hover {
+  background-color: orange;
+}
+
+.services .row div:nth-of-type(2) .box:hover .icon {
+  color: orange;
+}
+
+
+
+.services .row div:nth-of-type(2) .box:not(:hover) .icon {
+  color: orange;
+  background-color: rgb(255, 231, 187);
+}
+
+.services .row div:nth-of-type(2) .box:not(:hover) a {
+  color: orange;
+}
+
+
+/* 3 red */
+
+.services .row div:nth-of-type(3) .box {
+  border-color: red;
+}
+
+.services .row div:nth-of-type(3) .box:hover {
+  background-color: red;
+}
+
+.services .row div:nth-of-type(3) .box:hover .icon {
+  color: red;
+}
+
+
+
+.services .row div:nth-of-type(3) .box:not(:hover) .icon {
+  color: red;
+  background-color: rgb(255, 189, 189);
+}
+
+.services .row div:nth-of-type(3) .box:not(:hover) a {
+  color: red;
+}
+
+
+
+/* 4 green */
+
+.services .row div:nth-of-type(4) .box {
+  border-color: mediumspringgreen;
+}
+
+.services .row div:nth-of-type(4) .box:hover {
+  background-color: mediumspringgreen;
+}
+
+.services .row div:nth-of-type(4) .box:hover .icon {
+  color: mediumspringgreen;
+}
+
+
+
+.services .row div:nth-of-type(4) .box:not(:hover) .icon {
+  color: mediumspringgreen;
+  background-color: rgb(211, 255, 219);
+}
+
+.services .row div:nth-of-type(4) .box:not(:hover) a {
+  color: mediumspringgreen;
+}
+
+
+/* 5 purple */
+
+.services .row div:nth-of-type(5) .box {
+  border-color: rebeccapurple;
+}
+
+.services .row div:nth-of-type(5) .box:hover {
+  background-color: rebeccapurple;
+}
+
+.services .row div:nth-of-type(5) .box:hover .icon {
+  color: rebeccapurple;
+}
+
+
+
+.services .row div:nth-of-type(5) .box:not(:hover) .icon {
+  color: rebeccapurple;
+  background-color: rgb(240, 203, 255);
+}
+
+.services .row div:nth-of-type(5) .box:not(:hover) a {
+  color: rebeccapurple;
+}
+
+
+/* 6 vi */
+
+.services .row div:nth-of-type(6) .box {
+  border-color: violet;
+}
+
+.services .row div:nth-of-type(6) .box:hover {
+  background-color: violet;
+}
+
+.services .row div:nth-of-type(6) .box:hover .icon {
+  color: violet;
+}
+
+
+
+.services .row div:nth-of-type(6) .box:not(:hover) .icon {
+  color: violet;
+  background-color: rgb(255, 221, 247);
+}
+
+.services .row div:nth-of-type(6) .box:not(:hover) a {
+  color: violet;
+}
+
+/* ======== End of services ========== */
+
+
+
+/* ======== Pricing ========== */
+
+.pricing {
+  padding: 50px 0px;
+
+}
+
+.pricing .box {
+  padding: 30px;
+  margin: 40px 0px;
+  overflow: hidden;
+  position: relative;
+
+
+  box-shadow: 0px 0px 20px rgba(211, 211, 211, 0.507);
+}
+
+.pricing .box h6 {
+  color: #28ead6;
+  font-weight: bold;
+}
+
+.pricing p {
+  margin: 15px 0px;
+  font-size: 22px;
+  color: rgb(138, 138, 138);
+}
+
+.pricing p span {
+  font-weight: bold;
+  font-size: 45px;
+  color: black;
+}
+
+.pricing p sup {
+  color: black;
+  font-size: 30px;
+  line-height: 30px;
+
+}
+
+.pricing .box img {
+  width: 80%;
+  padding: 10px;
+
+}
+
+.pricing .box ul {
+  list-style-type: none;
+  list-style-position: inside;
+  padding: 0px;
+
+  margin: 20px 0px;
+  line-height: 35px;
+}
+
+.pricing .box ul .del {
+  text-decoration: line-through;
+  color: lightgray;
+}
+
+
+.pricing .box a {
+  color: royalblue;
+  font-weight: 500;
+  padding: 7px 25px;
+  border-radius: 20px;
+  border: 1px solid royalblue;
+  text-decoration: none;
+}
+
+.pricing .box a:hover {
+  color: white;
+  background-color: royalblue;
+
+}
+
+.pricing .box:hover {
+  transform: scale(1.08);
+
+}
+
+/* 2 */
+.pricing .starter h6 {
+  color: #76d80d;
+  margin-top: -25px;
+
+}
+
+.pricing .box>span {
+
+  position: relative;
+
+  transform: rotate(45deg);
+  right: -50%;
+  top: -10%;
+
+  box-shadow: 0px 0px 10px lightgray;
+  color: white;
+  font-size: small;
+  background-color: royalblue;
+  padding: 3px 100px;
+}
+
+
+/* 3 */
+.pricing .bussiness h6 {
+  color: orange;
+}
+
+/* 4 */
+.pricing .ult h6 {
+  color: #FF0071;
+}
+
+/* ======== End of Pricing ========== */
